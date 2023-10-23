@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contuct Us</title>
+  <link rel="stylesheet" type="text/css" href="cssfile/ContactUs.css">
+  <h1>"Basic Information"</h1>
+</head>
+<body>
+    <img src="./images/ITACHI.png" width="10%" height="150">
+  <div>
+  <table>
+  <tr>
+  <td><p><b><p>NAME:</b><td><span>JAMIL JAMES JUEZAN</span></td><td><b><p>COURSE:</p></b></td><td><span>ACT</span></td></td></p></td>
+  </tr>
+  <tr>
+  <td><p><b><p>ADDRESS:</b><td><span>TAGAYTAY ,VITO MINGLANILLA CEBU City</span></td><td><b><p>LEVEL:</p></b></td><td><span>2nd YEAR</span></td></td></p></td>
+  </tr>
+  <tr>
+  <td><p><b><p>BIRTHDATE:</b><td><span> FEBUARY 23,2002</span></td><td><b><p>SUBJECT:</p></b></td><td><span>WEBPAGE DESIGNING</span></td></td></p></td>
+  </tr>
+  <tr>
+  <td><p><b><p>EMAIL:</b><td><span>jamesjuezan143@GMAIL.COM</span></td></p></td>
+  </tr>
+  <tr>
+  <p><b><p>CONTACT NUMBER.:</b><td><span>09155743217</span></td></p></td>
+  </tr>
+  </table>
+  </div>
+  
+</tr> 
+</body> 
+</table>
+<hr style = "width:"40%>
+
+<div class = "centered-header">
+<p><h1>SEND US YOUR FEEDBACK<h1>
+</div>
+<p class = "emailicon"><img src="./images/J.jpg" width="50" height="30">
+<textarea id = "subject" name = "subject" placeholder = " "rows = "1" cols = "50">Your Email</textarea>
+                          
+<p class = "jam">
+<textarea id = "subject" name = "subject" placeholder = " "rows = "4" cols = "50">Messages </textarea>
+<p class = " submit " ><button onclick = " performAction()"> Submit </button></p>
+<p><a href="Home.html">Click To Go Back Home Page</a></p>
+<script>
+function performAction () {
+alert ("Button Clicked!") ;
+}
+</script>
+</div>
+</html>

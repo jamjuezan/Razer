@@ -1,0 +1,183 @@
+<html>
+<head>
+<title></title>
+<link rel = "stylesheet" type = "text/css" href = "cssfile/Resources.css">
+<link rel = "stylesheet" type = "text/css" href = "cssfile/skitter.styles.css">
+ <script src ="js/jquery-1.6.3.min.js"></script>
+ <script src ="js/jquery.easing.1.3.js"></script>
+  <script src ="js/jquery.animate-colors-min.js"></script>
+   <script src ="js/jquery.skitter.min.js"></script>
+    <script src ="js/highlight.js"></script>
+    <script>
+    $(document).ready(function(){
+    var options = {};
+    if (document.location.search) {
+    var array = document.location.search.split('=');
+    var param = array[0].replace('?','');
+    var value = array[1];
+    if (param == 'animation'){
+    options.animation = value;
+    }
+    else if (param == 'type_navigaton'){
+    if (value == 'dots_preview'){
+    $('.border_box').CSS({'marginBottom':'40px'});
+    options['dots'] = true;
+    options['preview'] = true;
+    }
+    else {
+    options[value] = true;
+    if (value == 'dots') $ ('.border_box').CSS({'marginBottom': '40px'});
+    }
+    }
+    }
+    $('.box_skitter_large').skitter(options);
+    //Highlight
+    $('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+    });
+    </script>
+</head>
+<body>
+<div class = "Container">
+<div class = "headcon">
+<div class = "logo">
+<img src = "images/Resourceslogo.jpg" alt ="" width = "300" height = "110" />
+</div>
+<div class ="headright"><br>
+<small> For more information, please call:</small></br>
+<label> 123-456-7890</label>
+
+</div>
+</div>
+<div class = "navbg">
+<div class = "nav_inside">
+<ul>
+<li><a href ="Home.html">Home</a></li>
+<li><a href ="Aboutus.html">About Us</a></li>
+<li><a href ="Services.html">Services</a></li>
+<li><a href ="Careers.html">Careers</a></li>
+<li><a href ="Resources.html">Resources</a></li>
+<li><a href ="Contactus.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class ="flashcon">
+<div class ="box_skitter box_skitter_large" style= "z-index:0;">
+<ul>
+<li> <a href="#blindHeight"><img src = "./images/Resourcesflash.jpg" class="random"/></a></li>
+<li> <a href="#blindHeight"><img src = "./images/Resourcesflash2.jpg" class="random"/></a></li>
+<li> <a href="#blindHeight"><img src = "./images/Resourcesflash3.jpg" class="random"/></a></li>
+</ul>
+</div>
+</div>
+<div class = "midboxcon">
+<div class = "midbox1">
+<img src = "images/Resourcesmidbox.jpg" alt ="" width = "333" height = "187" />
+</div>
+<div class = "midbox2">
+<img src = "images/Resourcesmidbox2.jpg" alt ="" width = "333" height = "187" />
+</div>
+<div class = "midbox3">
+<img src = "images/Resourcesmidbox3.jpg" alt ="" width = "334" height = "187" />
+</div>
+<div class ="low">
+  <div class="about-section">
+  <h1>Razer's Equipments</h1>
+  <p>Razer's products are generally targeted at gamers and include gaming laptops, gaming tablets, and PC peripherals such as mice (e.g. Razer Naga), audio devices, keyboards, mouse mats, and gamepads.</p>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/Resourceslaptop.jpg" alt="" style="width:100%">
+      <div class="aboutus">
+        <h2></h2>
+        <p></p>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/Resourcespc.jpg" alt ="" width = "265" height = "265" />
+      <div class="aboutus">
+        <h2></h2>
+        <p</p>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/Resourcestablet.png" alt ="" width = "265" height = "265" />
+      <div class="aboutus">
+        <h2></h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="col-lg-4 col-md-6 text-center mb-3">
+                    <div class="service-wrap">
+                        <div class="service-icon">
+                            <i class="far fa-chart-bar"></i>
+                        </div>
+                        <h4>Highly customizable</h4>
+                        <p>. Personalised✓ Visually appealing✓ Durable✓ Browse Razer's range of customisable mobile phone accessories, cases, and mouse mats. …</p>
+                        <a href="https://www.razer.com/customs">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-3">
+                    <div class="service-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>Responsive design</h4>
+                        <p>The Razer Edge is custom-built to be the ultimate Android gaming handheld. The exclusive Snapdragon G3x Gen 1 delivers unrivaled performance, the 144Hz AMOLED ...</p>
+                        <a href="https://www.razer.com/mobile-handhelds/razer-edge">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-3">
+                    <div class="service-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Service & plugins</h4>
+                        <p> Immersive range of software platforms allowing you to game lag-free, stream with customized Chroma effects, and more. Download the software today!</p>
+                        <a href="https://www.razer.com/pc/software">Read More</a>
+                    </div>
+                </div>
+</div>
+
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="Home.html">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="Aboutus.html">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="Services.html">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="Careers.html">Careers</a></li>
+      <li class="menu__item"><a class="menu__link" href="Resources.html">Resources</a></li>
+      <li class="menu__item"><a class="menu__link" href="Contactus.html">Contact Us</a></li>
+
+    </ul>
+    <p>&copy;2023 RAZER | JAMIL JAMES JUEZAN</p>
+    <p>For school project purposes only</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</div>
+</footer>
+
+</body>
+</html>

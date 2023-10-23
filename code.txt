@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Website Intro</title>
+	<link rel= "stylesheet" type ="text/css" href="D:/JUEZAN/WEBPAGE/NAVIGATION/cssfile/Css.css">
+</head>
+<body>
+	<div class = "container">
+		<div class = "headcon">
+			<div class ="logo">
+			<img src = "images/logo.png" alt = ""width = "300px "height = "150" >
+		</div>
+		<div class = "headright">
+		<br>
+		    <small>For more Information, please call:</small></br>
+			<label>123-456-7890</label>
+		</div>
+        </div>
+        <div class = "navigation">
+		    <div class = "nav_inside">
+			<ul>
+				<li><a href ="#"> Home </a></li>
+				<li><a href ="#"> About Us </a></li>
+				<li><a href ="#"> Services </a></li>
+				<li><a href ="#"> Careers </a></li>
+				<li><a href ="#"> Resources </a></li>
+				<li><a href ="#"> Contact Us </a></li>
+			</ul>
+		</div>
+		<div class ="flashcon">
+		    <div class ="flash">
+		    	<img src = "./images/background2.jpg" alt="img background2" width="960px" height="350px"></img>
+			</div>
+		</div>
+		<div class ="midboxcon">
+		    <div class ="midbox1">
+			</div>
+			<div class ="midbox2">
+			</div>
+			<div class ="midbox3">
+			</div>
+		</div>	
+		<div class ="contentcon">
+		    <div class ="content">
+
+
+		</div>
+	</div>
+		
+</body>
+
+</html>
