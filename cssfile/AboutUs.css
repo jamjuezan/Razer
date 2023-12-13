@@ -99,7 +99,7 @@ color: yellow;
 }
 .navbg{
 width: 1000px;
-background: url("../images/AboutUsnav.jpg") repeat-x scroll center top;
+background: url("../images/AboutUsnav.jpg") ;
 height: 170px;
 }
 .nav_inside ul{
@@ -150,14 +150,14 @@ height: 200px;
 margin: 0 auto;
 width: 333px;
 height: 187px;
-background: url("../images/midbox1.jpg");
+background: url("../images/AboutUsmidbox.jpg");
 float: left;
 }
 .midbox2{
 margin: 0 auto;
 width: 333px;
 height: 187px;
-background: url("../images/midbox2.jpg");
+background: url("../images/AboutUsmidbox2.jpg");
 float: left;
 }
 .midbox3{
@@ -165,6 +165,122 @@ margin: 0 auto;
 width: 334px;
 height: 187px;
 float: right;
-background: url("../images/midbox3.jpg");
+background: url("../images/AboutUsmidbox3.jpg");
 }
+p{
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+ 
+  .headercon,
+  .logo,
+  .headright,
+  .navbg,
+  .midboxcon,
+  .midbox1,
+  .midbox2,
+  .midbox3 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+ .flashcon{
+  display: none;
+ }
 
+  .logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-left: 10px;
+    background-size: contain;
+    float: none;
+  }
+
+  .headright {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    float: center;
+    text-align: center; /* Add this line */
+  }
+ 
+  .headright small {
+   /* float: center; Remove this line */
+    font-size: 14px;
+    float:right;
+  
+  }
+ 
+  .headright label {
+   /* float: center; Remove this line */
+    font-size: 14px;
+    float:center;
+  }
+  .navbg{
+width: 100%;
+
+height: auto;
+padding-top:80px ;
+margin: 0;
+float: left;
+}
+  .nav_inside ul li{
+  display: block;
+
+}
+ 
+p{
+  color: white;
+}
+ 
+  .nav_inside ul li:hover {
+    background-color: maroon; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition */
+  }
+ 
+  .nav_inside ul {
+    height: auto;
+    font-size: 16px;
+    text-align: center; /* Center-align the text */
+  }
+ 
+  ..nav_inside ul li a:hover {
+    background-color: maroon; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition */
+    padding: 0 10px;
+    margin: 0;
+  }
+  .flashcon:hover {
+    background: blue; /* Change background color on hover */
+    transform: scale(1.1); /* Example: Increase size on hover */
+    transition: background 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  }
+ 
+  /* Remove styles for .flashcon */
+  /* .flashcon {
+    margin: 0 auto;
+    width: 1000px;
+    height: 350;
+    background: red;
+  } */
+ 
+  .midbox1,
+  .midbox2,
+  .midbox3 {
+    width: 100%;
+    max-width: none;
+    height: 200px;
+    float: none;
+  }
+}
